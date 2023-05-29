@@ -9,7 +9,7 @@ import statistics
 
 x = 0
 dictionary = dict()
-for i in range(5):
+for i in range(90):
     date = datetime.datetime.now() - datetime.timedelta(days=x)
     actual_date = datetime.datetime.strftime(date, '%d/%m/%Y')
     x += 1
